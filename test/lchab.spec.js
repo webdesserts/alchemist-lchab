@@ -10,10 +10,7 @@ describe('lchab', function () {
     lab = { name: 'lab', to: {} }
     alchemist.use(lchab())
     alchemist.use(lab)
-    var white = alchemist.BaseSpace.white
-    ref_white = [white.X, white.Y, white.Z]
   })
-
 
   describe('to lab', function () {
     it('should convert', function () {
