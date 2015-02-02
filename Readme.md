@@ -1,32 +1,13 @@
 LCHab
 ===
 
-The official LCHab color-space plugin for alchemist.js.
+`alchemist-lchab` is the official **LCHab** color-space plugin for alchemist.js. It is
+available as an [npm package][] and a [UMD module][]. It also is inlcuded by
+default in [alchemist-common][] and consiquentially, alchemist itself.
 
-Usage
------
-
-### Node
-
-By default alchemist-lchab is included in `alchemist.common`.
-
-```js
-  var alchemist = require('alchemist-js')
-  alchemist.use(alchemist.common())
-  var color = alchemize.lchab(100, 50, .5)
-```
-
-If you are not using alchemist.common you can instead use this library directly
-
-```js
-  var alchemist = require('alchemist-js')
-  var lchab = require('alchemist-lchab')
-  alchemist.use(lchab())
-```
-
-### Web
-
-[coming soon]
+[npm package]: https://www.npmjs.com/package/alchemist-lchab
+[UMD Module]: /dist/
+[alchemist-common]: https://www.npmjs.com/package/alchemist-common
 
 Special Thanks
 --------------
