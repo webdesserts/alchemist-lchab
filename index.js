@@ -25,7 +25,7 @@ module.exports = function lchab () {
     from: { 'lab': function (L, a, b) {
       C = Math.sqrt(a * a + b * b);
       H = 180 * Math.atan2(b, a) / Math.PI;
-      if (H < 0) LCHab.H += 360;
+      if (H < 0) H += 360;
       return [L, C, H]
     } }
   }
