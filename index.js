@@ -17,14 +17,14 @@ module.exports = function lchab () {
   return {
     name: 'lchab',
     to: { 'lab': function (L, C, H) {
-      a = C * Math.cos(H * Math.PI / 180);
-      b = C * Math.sin(H * Math.PI / 180);
+      var a = C * Math.cos(H * Math.PI / 180);
+      var b = C * Math.sin(H * Math.PI / 180);
 
       return [L, a, b]
     } },
     from: { 'lab': function (L, a, b) {
-      C = Math.sqrt(a * a + b * b);
-      H = 180 * Math.atan2(b, a) / Math.PI;
+      var C = Math.sqrt(a * a + b * b);
+      var H = 180 * Math.atan2(b, a) / Math.PI;
       if (H < 0) LCHab.H += 360;
       return [L, C, H]
     } }
