@@ -13,7 +13,7 @@
  *
  */
 
-module.exports = function lchab () {
+export default function lchab () {
   return {
     name: 'lchab',
     to: { 'lab': function (L, C, H) {

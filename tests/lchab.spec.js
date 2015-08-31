@@ -1,6 +1,5 @@
-var expect = require('chai').expect
-var Alchemist = require('alchemist-js')
-var lchab = require('../')
+import Alchemist from 'alchemist-js'
+import lchab from '../'
 
 describe('lchab', function () {
   var alchemist, lab, ref_white;
