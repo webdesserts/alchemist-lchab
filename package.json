@@ -5,7 +5,7 @@
   "main": "dist/alchemist-lchab-node.js",
   "main:src": "index.js",
   "scripts": {
-    "dev": "gulp",
+    "dev": "gulp dev",
     "test": "gulp test",
     "build": "gulp build"
   },
