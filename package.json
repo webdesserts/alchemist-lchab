@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/webdesserts/alchemist-lchab",
   "devDependencies": {
-    "alchemist-gulp": "^1.0.0",
-    "alchemist-js": "^1.0.1",
+    "alchemist-gulp": "^2.0.0",
+    "alchemist-js": "^2.0.0",
     "babel-core": "^5.8.23",
     "gulp": "gulpjs/gulp#4.0"
   }
